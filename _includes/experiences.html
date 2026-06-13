@@ -25,6 +25,10 @@
         {{ job.date | date: df_strftime_m }}
       </span>
       <a href="{{ job.url | relative_url }}">{{ job.role }}</a>
+      {% if job.location %}
+        <span class="text-muted small location">{{ job.location }}</span>
+      {% endif %}
+      <div class="text-muted small company">{{ job.company }}</div>
     </li>
 
     {% if forloop.last %}</ul>{% endif %}

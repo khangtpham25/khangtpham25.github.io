@@ -4,47 +4,55 @@
 - role: Robotics Software Engineer
   company: Joint Robotics Laboratory, AIST
   date: 2026-01-20
+  location: Tsukuba, Japan
   description: 
   url: https://unit.aist.go.jp/isri/isri-jrl/en/
-
-- role: Graduate Research Assistant
-  company: Robotics Lab, Illinois Institute of Technology
-  date: 2024-08-01
-  description: XPRIZE Sound Triangulation
-  url: https://robots.iit.edu/
 
 - role: Engineer Lead
   company: Design/Build/Fly, Illinois Institute of Technology
   date: 2024-08-01
+  location: Chicago, USA
   description: 
   url: https://www.instagram.com/aiaa_illinoistech/
 
-- role: Mechanical Research Assistant
+- role: Graduate Research Assistant
+  company: Robotics Lab, Illinois Institute of Technology
+  date: 2024-08-01
+  location: Chicago, USA
+  description: XPRIZE Sound Triangulation
+  url: https://robots.iit.edu/
+
+- role: Undergraduate Research Assistant
   company: Robotics Lab, Illinois Institute of Technology
   date: 2023-08-01
+  location: Chicago, USA
   description: Starfish Space
   url: https://robots.iit.edu/
 
 - role: Project Engineer Intern
-  company: Switchboard Apparatus
+  company: Switchboard Apparatus (SAI)
   date: 2023-06-01
+  location: Franklin Park, USA
   description: 
   url: https://www.sai-aps.com/
 
 - role: Undergraduate Research Assistant
   company: Wave Lab, Illinois Institute of Technology
   date: 2022-08-01
+  location: Chicago, USA
   description: 
   url: https://sites.google.com/iit.edu/wavelab
 
 - role: President
-  company: American Institute of Aeronautics and Astronautics, Illinois Institute of Technology
+  company: AIAA Student Chapter, Illinois Institute of Technology
   date: 2024-06-01
+  location: Chicago, USA
   description: 
   url: https://www.instagram.com/aiaa_illinoistech/
 
 - role: Resident Advisor
   company: Illinois Institute of Technology
   date: 2023-08-01
+  location: Chicago, USA
   description:
   url: https://www.iit.edu/housing

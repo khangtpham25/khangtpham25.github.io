@@ -111,7 +111,7 @@
 
         top: 0;
         left: 77px;
-        height: 3.1rem;
+        height: calc(3.1rem + 1.4rem);
       }
     }
 
@@ -158,4 +158,18 @@
       z-index: 1;
     }
   }
+
+.location {
+  font-size: 0.8rem;
+  position: relative;
+  float: right;
+  margin-right: 1rem; /* optional: add some breathing room from the edge */
+}
+
+  // experience.company
+  .company {
+    margin-left: calc(1.4rem + 3.9rem + 8px + 12px);
+    line-height: 1.4rem;
+  }
+
 } /* #experiences */
