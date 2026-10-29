@@ -1,58 +1,98 @@
 # For unknown date or month, use 01
-# TODO: include start and end date
+# TODO: display `end` in _includes/experiences.html
 
 - role: Robotics Software Engineer
   company: Joint Robotics Laboratory, AIST
   date: 2026-01-20
+  end:
   location: Tsukuba, Japan
-  description: 
+  description:
   url: https://unit.aist.go.jp/isri/isri-jrl/en/
 
-- role: Engineer Lead
+- role: Chief Engineer
   company: Design/Build/Fly, Illinois Institute of Technology
   date: 2024-08-01
+  end: 2024-12-01
   location: Chicago, USA
-  description: 
+  description:
   url: https://www.instagram.com/aiaa_illinoistech/
 
-- role: Graduate Research Assistant
+- role: Graduate Research Assistant, XPRIZE Rainforest
   company: Robotics Lab, Illinois Institute of Technology
   date: 2024-08-01
+  end: 2025-06-01
   location: Chicago, USA
   description: XPRIZE Sound Triangulation
   url: https://robots.iit.edu/
 
-- role: Undergraduate Research Assistant
+# - role: Student Ambassador
+#   company: Illinois Institute of Technology
+#   date: 2024-05-01
+#   end: 2025-05-01
+#   location: Chicago, USA
+#   description:
+#   url: https://www.iit.edu
+
+- role: Undergraduate Research Assistant, Starfish Space
   company: Robotics Lab, Illinois Institute of Technology
   date: 2023-08-01
+  end: 2023-12-01
   location: Chicago, USA
-  description: Starfish Space
+  description:
   url: https://robots.iit.edu/
 
+- role: Propulsion Team Lead
+  company: Design/Build/Fly, Illinois Institute of Technology
+  date: 2023-08-01
+  end: 2024-04-01
+  location: Chicago, USA
+  description:
+  url: https://www.instagram.com/aiaa_illinoistech/
+
+# - role: Resident Advisor
+#   company: Illinois Institute of Technology
+#   date: 2023-08-01
+#   end: 2025-05-01
+#   location: Chicago, USA
+#   description:
+#   url: https://www.iit.edu/housing
+#
 - role: Project Engineer Intern
-  company: Switchboard Apparatus (SAI)
-  date: 2023-06-01
+  company: Switchboard Apparatus Inc.
+  date: 2023-05-01
+  end: 2023-08-01
   location: Franklin Park, USA
-  description: 
+  description:
   url: https://www.sai-aps.com/
+
+# - role: Supplemental Instructor for Math and Physics
+#   company: Academic Resource Center, Illinois Institute of Technology
+#   date: 2022-08-01
+#   end: 2023-05-01
+#   location: Chicago, USA
+#   description:
+#   url:
+
+- role: Undergraduate Research Assistant, XPRIZE Rainforest
+  company: Robotics Lab, Illinois Institute of Technology
+  date: 2023-01-01
+  end: 2025-06-01
+  location: Chicago, USA
+  description:
+  url: https://robots.iit.edu/
 
 - role: Undergraduate Research Assistant
   company: Wave Lab, Illinois Institute of Technology
-  date: 2022-08-01
-  location: Chicago, USA
-  description: 
-  url: https://sites.google.com/iit.edu/wavelab
-
-- role: President
-  company: AIAA Student Chapter, Illinois Institute of Technology
-  date: 2024-06-01
-  location: Chicago, USA
-  description: 
-  url: https://www.instagram.com/aiaa_illinoistech/
-
-- role: Resident Advisor
-  company: Illinois Institute of Technology
-  date: 2023-08-01
+  date: 2022-09-01
+  end: 2023-04-01
   location: Chicago, USA
   description:
-  url: https://www.iit.edu/housing
+  url: https://sites.google.com/iit.edu/wavelab
+
+# - role: Member
+#   company: FabLabs, University of Science and Technology of Hanoi (USTH)
+#   date: 2020-10-01
+#   end: 2021-03-01
+#   location: Hanoi, Vietnam
+#   description:
+#   url: https://usth.edu.vn
