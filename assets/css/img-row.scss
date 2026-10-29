@@ -1,9 +1,4 @@
-@mixin img-row(
-  $per-row: 2,
-  $gap: 20px,
-  $bottom-margin: 30px,
-  $radius: 10px
-) {
+@mixin img-row($per-row: 2, $gap: 20px, $bottom-margin: 30px, $radius: 10px) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -27,5 +22,9 @@
   }
 }
 
-.img-row-2 { @include img-row(2); }
-.img-row-3 { @include img-row(3); }
+.img-row-2 {
+  @include img-row(2);
+}
+.img-row-3 {
+  @include img-row(3);
+}

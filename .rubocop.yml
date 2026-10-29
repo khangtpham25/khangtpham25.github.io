@@ -1,0 +1,8 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+# File name comes from the Chirpy starter
+Naming/FileName:
+  Exclude:
+    - _plugins/posts-lastmod-hook.rb
