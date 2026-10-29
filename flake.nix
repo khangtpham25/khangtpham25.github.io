@@ -23,6 +23,7 @@
             bundler
             git
             prek
+            nodejs # for the prettier hook
             # to compile native gems (nokogiri, ffi, ...)
             gcc
             gnumake

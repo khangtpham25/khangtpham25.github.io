@@ -10,7 +10,7 @@ Personal site built with Jekyll and the [Chirpy](https://chirpy.cotes.page/) the
 - `flake.nix` pins nixpkgs `nixos-26.05`; only x86_64-linux is tested. It is only visible to Nix once tracked by git (`git add -N flake.nix`); commit `flake.lock` with it.
 - Serve with live reload: `bash tools/run.sh` (or `bundle exec jekyll serve`).
 - Build + link check (same as CI): `bash tools/test.sh`. CI runs `htmlproofer --disable-external` on the production build.
-- Lint/format is `prek` (drop-in `pre-commit` replacement, reads `.pre-commit-config.yaml`; prettier, shellcheck, rubocop, html-lint, whitespace). Run `prek install` once per clone to enable the commit hook, and `prek run --files <files>` to check files manually.
+- Lint/format is `prek` (drop-in `pre-commit` replacement, reads `.pre-commit-config.yaml`; prettier, shellcheck, rubocop, whitespace). Run `prek install` once per clone to enable the commit hook, and `prek run --files <files>` to check files manually.
 - Pushing to `main` triggers `.github/workflows/pages-deploy.yml`, which deploys the site.
 
 ## Content conventions
