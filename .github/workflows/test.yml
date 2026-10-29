@@ -42,3 +42,27 @@ jobs:
           bundle exec htmlproofer _site \
             \-\-disable-external \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+
+  test-nix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Cache gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: nix-gems-${{ runner.os }}-${{ hashFiles('Gemfile', 'flake.lock') }}
+
+      - name: Build and test in the Nix dev shell
+        run: nix develop --command bash -c "bundle install && bash tools/test.sh"
